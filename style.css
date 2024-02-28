@@ -8,9 +8,24 @@
     gap: 10px;
 }
 
+@media screen and (min-width: 576px) {
+
+    .blogCardsWrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 720px;
+    }
+}
+
 .blogCard {
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+@media screen and (min-width: 576px) {
+    .blogCard {
+        width:calc((100% - 10px - 4px)/2);
+    }
 }
 
 .blogCardImage img {
