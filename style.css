@@ -17,6 +17,12 @@
     }
 }
 
+@media screen and (min-width:992px) {
+    .blogCardsWrapper {
+        max-width: 960px;
+    }
+}
+
 .blogCard {
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -25,6 +31,12 @@
 @media screen and (min-width: 576px) {
     .blogCard {
         width:calc((100% - 10px - 4px)/2);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .blogCard {
+        width:calc((100% - 20px - 6px)/3);
     }
 }
 
